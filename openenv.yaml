@@ -1,0 +1,37 @@
+name: customer-support-triage
+description: A realism-focused OpenEnv for triaging customer support tickets with noise and multi-turn conversations.
+version: 2.0.0
+authors:
+  - Antigravity
+observation_space:
+  type: object
+  properties:
+    current_ticket:
+      type: object
+    history:
+      type: array
+      items:
+        type: object
+        properties:
+          role: {type: string}
+          action_type: {type: string}
+          content: {type: string}
+    memory:
+      type: object
+    remaining_tickets:
+      type: integer
+    error:
+      type: string
+action_space:
+  type: object
+  properties:
+    type: {type: string, enum: [classify, route, respond, close]}
+    priority: {type: string, enum: [low, medium, high, urgent]}
+    team: {type: string, enum: [billing, technical, general, sales]}
+    response_text: {type: string}
+    memory_update: {type: object}
+reward_type: continuous
+tasks:
+  - id: easy_priority
+  - id: medium_route
+  - id: hard_resolve
