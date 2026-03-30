@@ -5,7 +5,8 @@
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg?style=for-the-badge&logo=python)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-**SupportTriage-OpenEnv** is a high-fidelity simulation environment for training and evaluating AI agents in customer support triage. Developed as a modular and scalable solution for the **Meta PyTorch Hackathon**, it leverages the [OpenEnv](https://github.com/openenv/openenv) standard to provide a realistic, deterministic framework for complex agentic workflows.
+**SupportTriage-OpenEnv** is a high-fidelity simulation environment for training and evaluating AI agents in customer support triage. Developed as a modular and scalable solution for the **Meta PyTorch Hackathon**, it leverages the [![OpenEnv](https://img.shields.io/badge/OpenEnv-Compatible-brightgreen?style=for-the-badge&logo=github)](https://github.com/openenv/openenv)
+ standard to provide a realistic, deterministic framework for complex agentic workflows.
 
 ## 📋 Table of Contents
 - [📊 Evaluation & Benchmarks](#-evaluation--benchmarks)
