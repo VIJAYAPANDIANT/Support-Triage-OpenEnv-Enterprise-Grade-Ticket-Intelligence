@@ -80,8 +80,8 @@ A modular, decoupled structure optimized for developer experience and CI/CD inte
 
 ### 🧱 Environment Setup
 ```bash
-git clone https://github.com/your-username/support-triage
-cd support-triage
+git clone https://github.com/VIJAYAPANDIANT/support-triage-openenv-enterprise-grade-ticket-intelligence
+cd support-triage-openenv-enterprise-grade-ticket-intelligence
 pip install -r requirements.txt  # (openai, pydantic, pyyaml)
 ```
 
